@@ -20,8 +20,7 @@ function chatBot() {
 		if(this.match('(كيف حالك|وشراك|راك لباس|اخبارك|راك غاية|راك مليح|هل انت بخير)(\\s|!|\\.|$)'))
 			return "انا بخير شكرا انك تسأل علي";
 		
-		if(this.match('what[^ ]* up') || this.match('sup') || this.match('how are you'))
-			return "this github thing is pretty cool, huh?";
+		
 		
 		if(this.match('l(ol)+') || this.match('(ha)+(h|$)') || this.match('lmao'))
 			return "what's so funny?";
