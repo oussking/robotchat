@@ -30,6 +30,11 @@ function chatBot() {
 		if(this.match('(بومفتاح|مفتاح|مفتي عبد قادر||||)(\\s|!|\\.|$)'))
 			return "ههههههههههههه هل انت بومفتاح ربوت شخصيا راح ينتحر ";
 		
+		if(this.match('(wiki لا يعمل)(\\s|!|\\.|$)'))
+			return "ادخل على صفحة اسامة للمعولميات تجد جوابك";
+		
+		if(this.match('(ouss king|wiki ouss king|youtube|يوتيوب|فيديو|مشاهدة فيديو|يوتيب)(\\s|!|\\.|$)'))
+			return "قريبا انشاء الله ارجو منكم الصبر وسيتم تبديل اسم الى ouss king";
 		
 		if(this.input == 'noop')
 			return;
