@@ -21,18 +21,15 @@ function chatBot() {
 			return "انا بخير شكرا انك تسأل علي";
 		
 		
+		if(this.match('(نيك |زب|سكس|عطاي|سبي|قلاوي|نقش)(\\s|!|\\.|$)'))
+			return "استغفر الله واتوب اليه انت شخص احمق";
 		
-		if(this.match('l(ol)+') || this.match('(ha)+(h|$)') || this.match('lmao'))
-			return "what's so funny?";
+		if(this.match('(فيسبوك بصور|بصور|لايت|GMC|fb wiki|صور|رؤية صور)(\\s|!|\\.|$)'))
+			return "ادخل على هذا رابط تجبد الشرح اتبع من 1 حتى 10 وانشاء الله تنجح معك https://free.facebook.com/groups/423084828219119?view=permalink&id=437440433450225";
+	
+		if(this.match('(بومفتاح|مفتاح|مفتي عبد قادر||||)(\\s|!|\\.|$)'))
+			return "ههههههههههههه هل انت بومفتاح ربوت شخصيا راح ينتحر ";
 		
-		if(this.match('^no+(\\s|!|\\.|$)'))
-			return "don't be such a negative nancy :(";
-		
-		if(this.match('(cya|bye|see ya|ttyl|talk to you later)'))
-			return ["alright, see you around", "good teamwork!"];
-		
-		if(this.match('(dumb|stupid|is that all)'))
-			return ["hey i'm just a proof of concept", "you can make me smarter if you'd like"];
 		
 		if(this.input == 'noop')
 			return;
