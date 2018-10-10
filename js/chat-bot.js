@@ -17,8 +17,8 @@ function chatBot() {
 	
 		this.input = input.toLowerCase();
 		
-		if(this.match('(hi|hello|hey|hola|howdy)(\\s|!|\\.|$)'))
-			return "um... hi?";
+		if(this.match('(كيف حالك|وشراك|راك لباس|اخبارك|راك غاية|راك مليح|هل انت بخير)(\\s|!|\\.|$)'))
+			return "انا بخير شكرا انك تسأل علي";
 		
 		if(this.match('what[^ ]* up') || this.match('sup') || this.match('how are you'))
 			return "this github thing is pretty cool, huh?";
@@ -38,7 +38,7 @@ function chatBot() {
 		if(this.input == 'noop')
 			return;
 		
-		return input + " what?";
+		return input + "لا افهمك ";
 	}
 	
 	/**
