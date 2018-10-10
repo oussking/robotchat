@@ -1,4 +1,4 @@
-function دردشة ويكي اوس() {
+function chatbot() {
 	
 	// current user input
 	this.input;
