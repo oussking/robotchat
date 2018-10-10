@@ -1,4 +1,4 @@
-function chatbot() {
+function chatBot() {
 	
 	// current user input
 	this.input;
