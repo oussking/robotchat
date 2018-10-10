@@ -38,7 +38,7 @@ function chatBot() {
 		if(this.input == 'noop')
 			return;
 		
-		return input + "لا افهمك ";
+		return input + "انا لا افهمك ";
 	}
 	
 	/**
